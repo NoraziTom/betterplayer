@@ -99,4 +99,5 @@ This plugin is based on [Chewie](https://github.com/brianegan/chewie). Chewie is
 This plugin development is in progress. You may encounter breaking changes each version. This plugin is developed part-time for free. If you need
 some feature which is supported by other players available in pub dev, then feel free to create PR. All valuable contributions are welcome!
 
-
+## Current fork fix
+The ExoPlayer version has been updated to version 2.19.1. Fixed incompatibility with just_audio and video_player libraries on Android.
