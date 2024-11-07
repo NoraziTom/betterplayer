@@ -4,6 +4,7 @@
 
     <application
         android:label="Better Player"
+        tools:replace="android:label"
         android:allowBackup="true"
         android:supportsRtl="true">
 
@@ -15,7 +16,7 @@
         </receiver>
 
         <!-- Media playback service to handle media playback -->
-        <service android:name=".MediaPlaybackService">
+        <service android:name=".MediaPlaybackService" android:exported="false" tools:replace="android:exported">
             <intent-filter>
                 <action android:name="android.intent.action.MEDIA_BUTTON" />
             </intent-filter>
