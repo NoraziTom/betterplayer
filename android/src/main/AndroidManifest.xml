@@ -8,7 +8,7 @@
         android:supportsRtl="true">
 
         <!-- MediaButtonReceiver to handle media button events -->
-        <receiver android:name="androidx.media.session.MediaButtonReceiver">
+        <receiver android:name="androidx.media.session.MediaButtonReceiver" android:exported="true" tools:replace="android:exported">
             <intent-filter>
                 <action android:name="android.intent.action.MEDIA_BUTTON" />
             </intent-filter>
